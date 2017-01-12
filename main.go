@@ -33,6 +33,8 @@ var labels = map[string]string{
 }
 
 func main() {
+	time.Sleep(10 * time.Second)
+
 	client := &http.Client{}
 
 	for {
